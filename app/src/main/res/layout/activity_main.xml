@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-47dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="185dp"
+        android:layout_height="65dp"
+        android:text="Enter the city"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:text=""
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="findWeather"
+        android:text="What's the Weather?"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
