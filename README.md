@@ -1,8 +1,8 @@
-# What's_The_Weather
+# What's The Weather
 
 Check the live weather conditions of any city.
 
-#Developed_By_Tusharsaxena290
+#Developed By Tusharsaxena290
 
 
 
